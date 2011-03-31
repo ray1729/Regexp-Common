@@ -1,6 +1,10 @@
 # regexp-common
 
-FIXME: write description
+Perl has a useful module, Regexp::Common, that provides regular
+expressions to match common (and less common) strings. This is the
+beginnings of an attempt to port that functionality to Clojure.
+
+See <http://search.cpan.org/dist/Regexp-Common/>
 
 ## Usage
 
@@ -12,6 +16,6 @@ FIXME: write
 
 ## License
 
-Copyright (C) 2010 FIXME
+Copyright (C) 2011 Ray Miller <ray@1729.org.uk>
 
 Distributed under the Eclipse Public License, the same as Clojure.
