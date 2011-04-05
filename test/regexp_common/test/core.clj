@@ -11,7 +11,7 @@
       (is (re-matches r "0") "it matches 0")
       (is (not (re-matches r "ABC")) "it doest't match ABC")))
   (testing "Base 16 re-int functionality"
-    (let [r (re :int {:base 16})]
+    (let [r (re :int :base 16)]
       (is (re-matches r "123") "it matches 123")
       (is (re-matches r "+123") "it matches +123")
       (is (re-matches r "-987") "it matches -987")
